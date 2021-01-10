@@ -29,7 +29,7 @@ This project was built for the 2020 Calgary Youth Hackathon and won the Best Tec
 
 ### Server
 
-Setup your Twilio account and Twilio WhatsApp sandbox via the instructions [here](https://www.twilio.com/docs/whatsapp/sandbox). This allows you to run a development build while you wait for Twilio to approve your production number, which you can do [here](https://www.twilio.com/whatsapp/request-access).  
+Setup your Twilio account and Twilio WhatsApp sandbox via the instructions [here](https://www.twilio.com/docs/whatsapp/sandbox). This allows you to run a development build while you wait for Twilio to approve your production number, which you can do [here](https://www.twilio.com/whatsapp/request-access). Once you have your Twilio account, add your server url to your Twilio account.
 
 Cli-Mate requires Python 3.7+ installed on the server. Begin by installing and starting the server:
 
@@ -41,7 +41,7 @@ $ git clone https://github.com/elena-pan/Cli-Mate.git
 $ python3 -m pip install -r requirements.txt
 
 # Put in your Twilio account ID and auth token
-# Replace the account_sid and auth_token variable strings on lines 17-18 of app.py with your account details.
+# Replace the account_sid and auth_token variable strings on lines 10-11 of app.py with your account details.
 # Replace phone number on line 14 of app.py with your phone number.
 
 # Run the server
