@@ -7,6 +7,8 @@ from services.trivia import search_trivia
 
 import time, openpyxl
 
+#Todo: Move data to cloud database
+
 account_sid = 'YOUR_ACCOUNT_SID'
 auth_token = 'YOUR_AUTH_TOKEN'
 
